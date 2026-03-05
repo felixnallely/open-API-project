@@ -1,0 +1,15 @@
+head {
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(153, 196, 223);
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    color: darkblue;
+    border: rgb(77, 38, 216) dotted 4px;
+}
