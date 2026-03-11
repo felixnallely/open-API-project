@@ -1,13 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <title> Forecast </title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <header>
-            <h1> Weather Forecast </h1>
-        </header>
-        <p> Daily and weekly weather updates </p>
-    </body>
-</html> 
+  <head>
+    <title>Open-API-Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      body {
+        background-image: url(img/weather.jpg);
+        width: auto;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Forecast</h1>
+    </header>
+
+    <div class="card">
+      <div class="search">
+        <h2> Search City or Zip Code to get weather forecast with high/low temp of the week.</h2>
+        <input type="text" id="city-input" placeholder="Search location" />
+        <button id="search-button">Search</button>
+      </div>
+
+      <div class="weather-display" id="weather-display">
+        <div class="current-weather">
+            <div class="main-weather">
+                <div class="location" id="location"> Hesperia, US</div>
+                <div class="date" id="date">Tuesday, March 10</div>
+                <div class="temperature" id="temp">66°F</div>
+            </div>
+        </div>
+        <div class="weather-icon">
+        <img src="img/sunny.jpg" class="weather-icon" />
+        </div>
+    </div>
+    <div class="forecast" id="forecast">
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
