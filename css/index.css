@@ -68,11 +68,6 @@ h2 {
     margin: 0;
 }
 
-.weather-icon {
-    width: 100px; 
-    margin-top: 20px;
-}
-
 #weather-display {
     display: none;
 }
